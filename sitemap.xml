@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.wwjie.wang/posts/Note_Front-end_basics.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wwjie.wang/about/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wwjie.wang/archives/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wwjie.wang/categories/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wwjie.wang/tags/index.html</loc>
+    
+    <lastmod>2022-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://www.wwjie.wang/</loc>
+    <lastmod>2022-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://www.wwjie.wang/tags/Note/</loc>
+    <lastmod>2022-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://www.wwjie.wang/categories/Front-end/</loc>
+    <lastmod>2022-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>
