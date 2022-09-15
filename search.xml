@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Raspberry Pi更改软件源镜像为阿里云镜像</title>
+      <link href="/posts/raspberry_pi_aliyun.html"/>
+      <url>/posts/raspberry_pi_aliyun.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Raspberry-Pi更改软件源镜像为阿里云镜像"><a href="#Raspberry-Pi更改软件源镜像为阿里云镜像" class="headerlink" title="Raspberry Pi更改软件源镜像为阿里云镜像"></a>Raspberry Pi更改软件源镜像为阿里云镜像</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Raspbian是专门用于ARM卡片式计算机Raspberry Pi® “树莓派”的操作系统。</p><p>下载地址：<a href="https://mirrors.aliyun.com/raspberrypi/">https://mirrors.aliyun.com/raspberrypi/</a></p><h2 id="配置方法"><a href="#配置方法" class="headerlink" title="配置方法"></a>配置方法</h2><p>编辑 <code>/etc/apt/sources.list</code> 文件，这里推荐就用系统自带的 nano 命令编辑，命令如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure><p>进入编辑界面，删除原有的内容，粘贴如下内容：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">deb http://mirrors.aliyun.com/raspbian/raspbian/ bullseye  main non-free contrib rpi</span><br><span class="line">deb-src http://mirrors.aliyun.com/raspbian/raspbian/ bullseye main non-free contrib rpi</span><br></pre></td></tr></table></figure><p>更新软件索引清单</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure><p>比较索引清单更新依赖关系</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get upgrade -y</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Raspberry Pi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test</title>
       <link href="/posts/test.html"/>
       <url>/posts/test.html</url>
@@ -184,7 +209,7 @@
       <link href="/playlist/index.html"/>
       <url>/playlist/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-TzjJmjvQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8618039611" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-nfHAlZBO" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8618039611" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
