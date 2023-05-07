@@ -139,6 +139,17 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/background.css"/>
       <url>/css/background.css</url>
@@ -183,11 +194,11 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/js/floatpanel.js"/>
+      <url>/js/floatpanel.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[for (var ANGLE = 45, panel = document.getElementsByClassName("wowpanels"), i = 0; i < panel.length; i++) floatable(panel[i]);function floatable(t) {    t.addEventListener("mouseout", (e => {        t.style.transform = "perspective(300px)\n\t\t\t\t\t\t\t\t   rotateX(0deg)\n\t\t\t\t\t\t\t\t   rotateY(0deg)\n\t\t\t\t\t\t\t\t   rotateZ(0deg)"    })), t.addEventListener("mousemove", (e => {        var n = t.clientWidth, a = t.clientHeight, o = (e.offsetX - .5 * n) / n * ANGLE,            r = (1 - (e.offsetY - .5 * a)) / a * ANGLE;        t.style.transform = `perspective(300px)\n\t\t\t\t\t\t\t\t   rotateX(${r}deg)\n\t\t\t\t\t\t\t\t   rotateY(${o}deg)`    }))}]]></content>
       
     </entry>
     
@@ -198,7 +209,7 @@
       <link href="/playlist/index.html"/>
       <url>/playlist/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-oleLeCkx" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8618039611" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-gnNLEgpc" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8618039611" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
@@ -210,17 +221,6 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/floatpanel.js"/>
-      <url>/js/floatpanel.js</url>
-      
-        <content type="html"><![CDATA[for (var ANGLE = 45, panel = document.getElementsByClassName("wowpanels"), i = 0; i < panel.length; i++) floatable(panel[i]);function floatable(t) {    t.addEventListener("mouseout", (e => {        t.style.transform = "perspective(300px)\n\t\t\t\t\t\t\t\t   rotateX(0deg)\n\t\t\t\t\t\t\t\t   rotateY(0deg)\n\t\t\t\t\t\t\t\t   rotateZ(0deg)"    })), t.addEventListener("mousemove", (e => {        var n = t.clientWidth, a = t.clientHeight, o = (e.offsetX - .5 * n) / n * ANGLE,            r = (1 - (e.offsetY - .5 * a)) / a * ANGLE;        t.style.transform = `perspective(300px)\n\t\t\t\t\t\t\t\t   rotateX(${r}deg)\n\t\t\t\t\t\t\t\t   rotateY(${o}deg)`    }))}]]></content>
       
     </entry>
     
